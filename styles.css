@@ -60,6 +60,10 @@ img {
 
 button {
     display: block;
+    background-color: #596D48;
+    color: azure;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
 
 form {
@@ -70,5 +74,10 @@ form {
     display: flex;
     flex-direction: column;
     padding: 32px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-style: solid;
 }
 
