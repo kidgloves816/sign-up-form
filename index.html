@@ -27,19 +27,25 @@
                 <form action="example.com/path" method="post">
                     <div class="leftSide">
                         <label for="firstName">First Name</label>
-                        <input type="text" id="firstName" name="first_name">
+                        <input type="text" placeholder=" " id="firstName" name="first_name" required>
+                        <span></span>
                         <label for="userEmail">E-mail</label>
-                        <input type="email" id="userEmail" name="user_email">
+                        <input type="email" placeholder=" " id="userEmail" name="user_email" required>
+                        <span></span>
                         <label for="userPassword">Password</label>
-                        <input type="password" name="user_password" id="userPassword">
+                        <input type="password" placeholder=" " name="user_password" id="userPassword" required pattern="abc">
+                        <span></span>
                     </div>
                     <div class="rightSide">
                         <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="last_name">
+                        <input type="text" placeholder=" " id="lastName" name="last_name" required>
+                        <span></span>
                         <label for="phoneNumber">Phone Number</label>
-                        <input type="tel" name="phone_number" id="phoneNumber">
+                        <input type="tel" placeholder=" " name="phone_number" id="phoneNumber" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$" required>
+                        <span></span>
                         <label for="confirmPassword">Confirm Password</label>
-                        <input type="password" name="confirm_password" id="confirmPassword">
+                        <input type="password" placeholder=" " name="confirm_password" id="confirmPassword" required pattern="abc">
+                        <span></span>
                     </div>
                 </form>
             </div>
